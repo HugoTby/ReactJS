@@ -8,7 +8,8 @@ import Firstcomponent from './composant/Firstcomponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    < Firstcomponent couleur={'#ff0000'} />
+    {/* < Firstcomponent couleur={'#ff0000'} /> */}
+    <App/>
   </React.StrictMode>
 );
 
