@@ -1,5 +1,22 @@
 import logo from './logo4.png';
 import './App.css';
+/*const mysql = require('mysql');
+
+const connection = mysql.createConnection({
+	host : '192.168.65.92',
+	user : 'root',
+	password : 'root',
+	database: 'reactjs',
+
+})
+
+conection.connect((err) => {
+	if(err){
+		console.error("Erreur de connection",err);
+		throw err;
+	}
+	console.log("Connecté à la BDD");
+});*/
 
 /*function App() {
   return (
