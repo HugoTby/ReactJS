@@ -6,14 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import Firstcomponent from './composant/Firstcomponent';
 import Bouclecomponent from './composant/Bouclecomponent'
 import Conditioncomponent from './composant/Conditioncomponent';
+import FormulaireComponant from './composant/FormulaireComponant';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    < Firstcomponent couleur={'#ff0000'} />
-    {/* <App/> */}
-    < Conditioncomponent />
-    < Bouclecomponent />
+    {/*< Firstcomponent couleur={'#ff0000'} />
+     <App/> 
+    <Conditioncomponent/>
+    <Bouclecomponent/>*/}
+    <FormulaireComponant/>
   </React.StrictMode>
 );
 
