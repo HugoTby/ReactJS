@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Firstcomponent from './composant/Firstcomponent';
+import Bouclecomponent from './composant/Bouclecomponent'
+import Conditioncomponent from './composant/Conditioncomponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* < Firstcomponent couleur={'#ff0000'} /> */}
-    <App/>
+    < Firstcomponent couleur={'#ff0000'} />
+    {/* <App/> */}
+    < Conditioncomponent />
+    < Bouclecomponent />
   </React.StrictMode>
 );
 
