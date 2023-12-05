@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import FormulaireEnfantComponent from './FormulaireEnfantComponent';
 
 const FormulaireComponant = ({ couleur }) => {
     const [login, setLogin] = useState('');
@@ -51,6 +52,7 @@ const FormulaireComponant = ({ couleur }) => {
             <p style={{ marginTop: '20px', color: message === 'Connexion réussie!' ? 'green' : 'red' }}>
                 {message}
             </p>
+            <FormulaireEnfantComponent connexionReussie={message === 'Connexion réussie!'} />
         </div>
     );
     

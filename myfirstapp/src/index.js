@@ -7,6 +7,7 @@ import Firstcomponent from './composant/Firstcomponent';
 import Bouclecomponent from './composant/Bouclecomponent'
 import Conditioncomponent from './composant/Conditioncomponent';
 import FormulaireComponant from './composant/FormulaireComponant';
+import ParentComponent from './composant/ParentComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     {/*< Firstcomponent couleur={'#ff0000'} />
      <App/> 
     <Conditioncomponent/>
-    <Bouclecomponent/>*/}
+    <Bouclecomponent/>
+    <ParentComponent/>*/}
     <FormulaireComponant/>
   </React.StrictMode>
 );
